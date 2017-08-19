@@ -5,7 +5,7 @@ Usage:
 Write VC type your own VC param name.
 
 array(
-   'type' => 'tr_post_category',
+   'type' => 'post_category',
    
    'heading' => esc_html__( 'Post Categories', 'text_domain' ),
    
