@@ -5,7 +5,7 @@
   /* VC CUSTOM PARAMETER */
 if( !function_exists('post_category_settings_field') ){
 
-    vc_add_shortcode_param( 'tr_post_category', 'post_category_settings_field' );
+    vc_add_shortcode_param( 'post_category', 'post_category_settings_field' );
     function post_category_settings_field( $settings, $value ) {
         $args = array(
             'taxonomy' => 'category',
